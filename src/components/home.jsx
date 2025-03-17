@@ -11,7 +11,7 @@ function Home() {
                 <span className='text-orange-400'>We provide the best</span>  industrial and technology services.
                 </h2>
           <div className='space-x-6 mt-16'>
-            <a href="#Projects" className='bg-orange-400 hover:bg-gray-700 px-8 py-3 font-semibold rounded cursor-pointer'>Services</a>
+            <a href="#Services" className='bg-orange-400 hover:bg-gray-700 px-8 py-3 font-semibold rounded cursor-pointer'>Services</a>
             <a href="#Contacts" className='border-2 hover:bg-white hover:text-gray-700 border-white px-8 py-3 font-semibold rounded cursor-pointer'>Contact Us</a>
           </div>
         </div>
