@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap');
+@import "tailwindcss";
+
+*{
+    font-family: "STIX Two Text", serif;
+}
+
+@layer components {
+    .underline-animation {
+      @apply relative inline-block; /* Keeps the underline within the text width */
+    }
+  
+    .underline-animation::after {
+      content: "";
+      @apply absolute left-0 bottom-0 w-full h-[2px] bg-orange-400 scale-x-0 transition-transform duration-300 origin-left;
+    }
+  
+    .underline-animation:hover::after {
+      @apply scale-x-100; /* Expands underline on hover */
+    }
+  }
