@@ -1,5 +1,6 @@
 import React from "react";
 import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
+import { assets } from "../assets/assets";
 
 
 function Footer() {
@@ -19,9 +20,9 @@ function Footer() {
         {/* Bottom Section - Footer Links */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 border-t border-gray-700 pt-8">
           {/* Brand Info */}
-          <div>
-            <h3 className="text-lg font-semibold text-orange-400">GeoSum Resource</h3>
-            <p className="text-gray-300 mt-2">
+          <div className="-mt-10">
+            <img className="h-28 w-28" src={assets.geolo} alt="" />
+            <p className="text-gray-300 -mt-5">
             We provide the best industrial and technological services throughout Ghana.
             </p>
             {/* Social Icons */}
@@ -65,7 +66,7 @@ function Footer() {
             </p>
             <input
               type="email"
-              placeholder="Email*"
+              placeholder="Email"
               className="w-full px-4 py-2 mt-4 bg-gray-800 text-white rounded outline-none"
             />
             <textarea name="message" placeholder="Message" rows={3} id="" className="w-full border border-orange-300 rounded py-3 px-4 mt-2 h-48 resize-none"></textarea>

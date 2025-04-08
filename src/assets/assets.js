@@ -13,7 +13,8 @@ import mineplanningpht from './mininig planning.png'
 import geoservicepht from './geological service.jpg';
 import geotechpht from './about.png';
 import projectimg from './project.jpeg'
-
+import geolo from './geolo.png'
+import geo from './geo.jpeg'
 
 export const assets = {
     home_bgrnd,
@@ -31,6 +32,8 @@ export const assets = {
     mineplanningpht,
     geoservicepht,
     geotechpht,
+    geolo,
+    geo,
 }
 
 export const services =[
@@ -46,7 +49,7 @@ export const services =[
     },
     {
         id:3,
-        name:"Geological engineering Services",
+        name:"Geological Engineering Services",
         image:geoservicepht
     },
     {
@@ -69,6 +72,11 @@ export const services =[
 
 
 export const ProjectS=[
+    {
+        title: "4 Bedroom Apartment",
+      location: "Accra",
+      image: projectimg,
+    },
     {
         title: "4 Bedroom Apartment",
       location: "Accra",

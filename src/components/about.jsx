@@ -16,7 +16,7 @@ function About() {
             {/* Right Side - Text Content */}
             <div className="w-full md:w-1/2 flex flex-col items-center md:items-center text-center md:text-left">
                 <h1 className="text-3xl mt-5 md:text-5xl font-bold text-orange-400">| <span className='text-gray-900'>Shortly About Us.</span></h1>
-                <span className="text-lg md:text-xl font-semibold bg-[#e48723] px-3 py-2 rounded w-fit mt-2">
+                <span className="text-lg md:text-xl text-center font-semibold bg-[#e48723] px-3 py-2 rounded w-fit mt-2">
                     We provide the best industrial and technological services throughout Ghana.
                 </span>
                 <p className="text-gray-700 font-serif md:text-xl mt-4 leading-relaxed">

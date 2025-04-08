@@ -16,8 +16,10 @@ function Navbar() {
 
     return (
         <div className='absolute top-0 left-0 w-full z-10'>
-            <div className='container mx-auto flex justify justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-transparent'>
-                <img src={assets.logo} alt="" />
+            <div className='container mx-auto flex justify justify-between -mt-5 items-center px-6 md:px-20 lg:px-32 bg-transparent'>
+                <div className='flex justify-start'>
+                <img src={assets.geolo} alt="" className='w-28 h-28'/>
+                </div>
                 <ul className='hidden md:flex gap-7 text-white font-semibold'>
                     <a href="#About" className='cursor-pointer hover:text-orange-400 underline-animation'>About Us</a>
                     <a href="#Services" className='cursor-pointer hover:text-orange-400 underline-animation'>Services</a>
